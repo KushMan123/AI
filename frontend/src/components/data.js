@@ -9,6 +9,8 @@ import sexData from "../diseaseAC.json";
 
 const no_patients = Object.keys(patientData).length;
 const no_DiseaseData = Object.keys(sexData).length;
+const no_treatment=721;
+const no_test=824;
 
 const Data = () => {
 	return (
@@ -19,10 +21,10 @@ const Data = () => {
 			<Card dataValue={no_DiseaseData} text='Total Disease '>
 				<Pill_svg />
 			</Card>
-			<Card dataValue='1080' text='Treatment Methodology'>
+			<Card dataValue={no_treatment} text='Treatment Methodology'>
 				<Stethoscope_svg />
 			</Card>
-			<Card dataValue='2122' text='Test Methods'>
+			<Card dataValue={no_test} text='Test Methods'>
 				<Syringe_svg />
 			</Card>
 		</div>

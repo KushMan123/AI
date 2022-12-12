@@ -41,12 +41,15 @@ const Report = (props) => {
 					<h3>Physical Examination</h3>
 					<div class='info_data'>
 						{Object.keys(physical).map((p) => {
-							return (
-								<div class='data'>
-									<h4>{p}</h4>
-									<p>{physical[p]}</p>
-								</div>
-							);
+							if(p!== "Height"){
+								return (
+									<div class='data'>
+										<h4>{p}</h4>
+										<p>{physical[p]}</p>
+									</div>
+								);
+							}
+							
 						})}
 					</div>
 				</div>

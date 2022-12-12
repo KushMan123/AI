@@ -1,0 +1,8 @@
+flask 
+pymango 
+spacy
+negspacy
+scispacy
+stanza
+spacy-stanza
+pandas

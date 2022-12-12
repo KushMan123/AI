@@ -164,7 +164,7 @@ nav ul li div:hover i {
 .attendance {
 	margin-top: 20px;
 	text-transform: capitalize;
-	max-width: 1150px;
+	max-width: 1500px;
 }
 .attendance-list {
 	width: 100%;
@@ -414,7 +414,7 @@ table thead tr {
 }
 
 .data_section {
-	width: 1080px;
+	width: 1500px;
 	display: flex;
 	margin-top: 30px;
 	flex-direction: column;
@@ -422,7 +422,7 @@ table thead tr {
 }
 
 .drawing {
-	width: 1080px;
+	width: 1500px;
 	display: flex;
 	margin-top: 30px;
 	justify-content: space-around;

@@ -15,7 +15,8 @@ import PieChart from "./PieChart";
 import StackedBarChart from "./Stackchart";
 
 function App() {
-	const [data, setData] = useState([]);
+	const [patientData, setData] = useState([]);
+
 	const [viewReport, setViewReport] = useState(false);
 	const [id, setId] = useState(null);
 	const [ageData, setAgeData] = useState({
@@ -59,8 +60,17 @@ function App() {
 		borderWidth: 2,
 	});
 	useEffect(() => {
-		setData(json);
-	});
+
+		const firstURL= "/home";
+		const fetchFirstData = async () => {
+			const response = await fetch(firstURL);
+			const json = await response.json();
+			setData(json);
+			console.log(patientData)
+		};
+		fetchFirstData().catch(console.error);
+
+	},[]);
 
 	function ViewPatientReport(id) {
 		console.log(id);
@@ -73,7 +83,7 @@ function App() {
 	}
 
 	function RenderContent() {
-		if (data.length === 0) {
+		if (patientData.length === 0) {
 			return (
 				<Container>
 					<Navbar handleFunction={SetViewReportStatus} />
@@ -82,13 +92,13 @@ function App() {
 					</MainContainer>
 				</Container>
 			);
-		} else if (data.length !== 0 && !viewReport) {
+		} else if (patientData.length !== 0 && !viewReport) {
 			return (
 				<Container>
 					<Navbar handleFunction={SetViewReportStatus} />
 					<MainContainer text='Dashboard'>
 						<Data />
-						<PatientTable data={data} handleClick={ViewPatientReport} />
+						<PatientTable data={patientData} handleClick={ViewPatientReport} />
 						<div class='data_section'>
 							<div class='main-top center'>
 								<h1>Data Visualization</h1>
@@ -111,12 +121,12 @@ function App() {
 					</MainContainer>
 				</Container>
 			);
-		} else if (data.length !== 0 && viewReport) {
+		} else if (patientData.length !== 0 && viewReport) {
 			return (
 				<Container>
 					<Navbar handleFunction={SetViewReportStatus} />
 					<MainContainer text='Patient Report' secondClass='center'>
-						<Report data={data[id]} id={id} />
+						<Report data={patientData[id]} id={id} />
 					</MainContainer>
 				</Container>
 			);

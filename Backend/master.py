@@ -8,8 +8,8 @@ app.config["MONGO_URI"] = "mongodb://localhost:27017/flask_db"
 mongo = PyMongo(app)
 
 
-@app.route("/")
-def hello():
+@app.route("/home")
+def home():
     data =  mongo.db.medical_data.find({})
    
     dic = {}
