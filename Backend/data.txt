@@ -1,0 +1,55 @@
+CARDIOLOGY
+CASE 1: DIZZINESS
+History
+A 75-year-old man is brought to hospital with an episode of dizziness. He still feels unwell
+when he is seen 30 min after the onset. He was well until the last 6 months, since when
+he has had some falls, irregularly. On some occasions he lost consciousness and is unsure
+how long he has been unconscious. On a few occasions he has fallen, grazing his knees,
+and on others he has felt dizzy and has had to sit down but has not lost consciousness.
+These episodes usually happened on exertion, but once or twice they have occurred while
+sitting down. He recovers over 10–15 min after each episode.
+He lives alone and most of the episodes have not been witnessed. Once his granddaughter
+was with him when he blacked out. Worried, she called an ambulance. He looked so pale
+and still that she thought that he had died. He was taken to hospital, by which time he had
+recovered completely and was discharged and told that he had a normal electrocardiogram
+(ECG) and chest X-ray.
+There is no history of chest pain or palpitations. He has had gout and some urinary fre-
+quency. A diagnosis of benign prostatic hypertrophy has been made for which he is on no
+treatment. He takes ibuprofen occasionally for the gout. He stopped smoking 5 years ago.
+He drinks 5–10 units of alcohol weekly. The dizziness and blackouts have not been asso-
+ciated with alcohol. There is no relevant family history. He used to work as an electrician.
+
+
+Examination
+He is pale with a blood pressure of 96/64 mmHg. The pulse rate is 33/min, regular. There
+are no heart murmurs. The jugular venous pressure is raised 3 cm with occasional rises.
+There is no leg oedema; the peripheral pulses are palpable except for the left dorsalis pedis.
+The respiratory system is normal.
+
+
+ANSWER 1
+The blackouts do not seem to have had any relationship to posture. They have been a mix-
+ture of dizziness and loss of consciousness. The one witnessed episode seems to have been
+associated with loss of colour. This suggests a loss of cardiac output usually associated with
+an arrhythmia. This may be the case despite the absence of any other cardiac symptoms.
+There may be an obvious flushing of the skin as cardiac output and blood flow return.
+The normal ECG and chest X-ray when he attended hospital after an episode do not rule out
+an intermittent conduction problem. On this occasion the symptoms have remained in a
+more minor form. The ECG shows third-degree or complete heart block. There is complete
+dissociation of the atrial rate and the ventricular rate which is 33/min. The episodes of loss
+of consciousness are called Stokes–Adams attacks and are caused by self-limited rapid tachy-
+arrhythmias at the onset of heart block or transient asystole. Although these have been
+intermittent in the past he is now in stable complete heart block and, if this continues, the
+slow ventricular rate will be associated with reduced cardiac output which may cause
+fatigue, dizziness on exertion or heart failure. Intermittent failure of the escape rhythm may
+cause syncope.
+On examination, the occasional rises in the jugular venous pressure are intermittent ‘can-
+non’ a-waves as the right atrium contracts against a closed tricuspid valve. In addition,
+the intensity of the first heart sound will vary.
+The treatment should be insertion of a pacemaker. If the rhythm in complete heart block
+is stable then a permanent pacemaker should be inserted as soon as this can be arranged.
+This should be a dual-chamber system pacing the atria then the ventricles (DDD, dual
+sensing and pacing, triggered by atrial sensing, inhibited by ventricular sensing) or pos-
+sibly a ventricular pacing system (VVI, pacing the ventricle, inhibited by ventricular sens-
+ing). If there is doubt about the ventricular escape rhythm then a temporary pacemaker
+should be inserted immediately
